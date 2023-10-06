@@ -241,3 +241,53 @@ a{
     background-color: transparent;
     cursor: pointer;
 }
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.album-image{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.5rem;
+}
+.albm-icn{
+    padding: 0 2rem 0 1rem;
+    opacity: 0.7;
+
+}
+.album-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+.album-info a,p{
+    font-size: 0.87rem;
+    padding: 0;
+}
+
+.album-title{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    
+    font-size: 1.18rem;
+}
+.album-para{
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+    font-size: 0.675rem;
+}
+.cntrl-icon{
+    height: 0.8rem;
+    width: 0.8rem;
+    opacity: 0.7;
+}
+.controls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
